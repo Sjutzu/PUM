@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FragmentC">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:text="Ekran\nLogowania"
+        android:textSize="32sp"
+        android:layout_marginTop="80dp"
+        android:textAlignment="center"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="16dp"
+        android:gravity="center">
+
+        <EditText
+            android:id="@+id/etLoginUsername"
+            android:layout_width="match_parent"
+            android:layout_height="57dp"
+            android:hint="Login" />
+
+        <EditText
+            android:id="@+id/etLoginPassword"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginTop="16dp"
+            android:hint="Hasło"
+            android:inputType="textPassword" />
+
+        <Button
+            android:id="@+id/btnLoginSubmit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="Zaloguj"
+            android:backgroundTint="#73C068" />
+
+        <Button
+            android:id="@+id/btnNavigateToRegister"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="Rejestracja"
+            android:backgroundTint="#73C068" />
+    </LinearLayout>
+
+
+</FrameLayout>
