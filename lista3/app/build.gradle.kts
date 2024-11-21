@@ -3,13 +3,12 @@ plugins {
     alias(libs.plugins.kotlin.android)
     id("androidx.navigation.safeargs.kotlin")
 }
-
 android {
-    namespace = "com.example.lista2"
+    namespace = "com.example.lista3"
     compileSdk = 34
 
     defaultConfig {
-        applicationId = "com.example.lista2"
+        applicationId = "com.example.lista3"
         minSdk = 28
         targetSdk = 34
         versionCode = 1
@@ -17,7 +16,6 @@ android {
 
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
     }
-
     buildTypes {
         release {
             isMinifyEnabled = false
