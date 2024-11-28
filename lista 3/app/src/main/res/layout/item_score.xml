@@ -1,0 +1,42 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#d7e1e8"
+    android:layout_marginTop="25dp"
+    android:padding="16dp">
+
+    <!-- Nazwa przedmiotu - lewy górny róg -->
+    <TextView
+        android:id="@+id/subject_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="MATEMATYKA"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginEnd="8dp" />
+
+    <!-- Średnia ocena - prawy górny róg -->
+    <TextView
+        android:id="@+id/average_score"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="4.5"
+        android:textSize="16sp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="8dp" />
+
+    <!-- Liczba list - lewy dolny róg -->
+    <TextView
+        android:id="@+id/list_count"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Liczba list: 3"
+        android:textSize="14sp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="30dp" />
+
+</RelativeLayout>

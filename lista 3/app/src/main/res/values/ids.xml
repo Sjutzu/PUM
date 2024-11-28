@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="grade" type="id" />
+    <item name="task_count" type="id" />
+    <item name="average_score" type="id" />
+    <item name="scoreTextView" type="id" />
+</resources>

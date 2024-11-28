@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="8dp"
+    android:layout_marginTop="10dp"
+    android:background="#d7e1e8">
+
+    <!-- Punkty - w prawym górnym rogu -->
+    <TextView
+        android:id="@+id/exercise_points"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="14sp"
+        android:textColor="@android:color/black"
+        android:text="Punkty: 10"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"/>
+
+    <!-- Nagłówek zadania - Zadanie 1 -->
+    <TextView
+        android:id="@+id/exercise_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="23sp"
+        android:textColor="@android:color/black"
+        android:text="Zadanie 1:"
+        android:textStyle="bold"
+        android:layout_below="@id/exercise_points"
+        android:layout_marginTop="8dp"/>
+
+    <!-- Treść zadania -->
+    <TextView
+        android:id="@+id/exercise_content"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="17sp"
+        android:textColor="@android:color/black"
+        android:text="Treść zadania"
+        android:layout_below="@id/exercise_title"
+        android:layout_marginTop="8dp"/>
+
+</RelativeLayout>
